@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MrPorter</title>
+    <h1><center>MR PORTER</center></h1>
+    <style>
+        body {
+            background-color: #e1e2b0;
+        }
+        div#header {
+            background-color: rgb(181, 187, 127);
+            height: 110px;
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+        div#main {
+            border: solid 6px rgb(210, 218, 140);
+            width: 740px;
+            height: 407px;
+            margin-left: 200px;
+        }
+        div#sidebar {
+            border: 10px rgb(181, 187, 127) solid;
+            background-color: rgb(185, 194, 100);
+            width: 200px;
+            margin-left: 1015px;
+            position: absolute;
+            top: 220px;
+            min-height: 300px;
+        }
+        figure {
+            background-color: rgb(208, 214, 157);
+            border: 10px rgb(181, 187, 127) solid;
+            padding: 1px;
+            margin: auto;
+            display: inline-block;
+        }
+        figcaption {
+            color: rgb(0, 0, 0);
+            padding: 5px;
+            text-align: center;
+        }
+        .button {
+            width: 220px;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <p>Când buzunarele tale nu mai sunt tăiate deloc, este timpul să te răsfeți cu una dintre gențile noastre pentru bărbați. Răsfoiește o gamă largă de dimensiuni și găsește totul, de la genți de umăr mici pentru concerte și zile în aer liber până la genți mai mari de weekend. </p> 
+        <p>Descoperă rucsacuri negre de bază pentru navetă la serviciu sau explorează gama noastră de genți colorate și genți curea – perfecte pentru sezonul festivalurilor.</p>
+        <p>Răsfoiește gențile noastre pentru laptop pentru a găsi stiluri de protecție într-o gamă de dimensiuni sau aruncă o privire la genți de călătorie pentru bărbați pentru călătorii și vacanțe.</p>
+    </div>
+    <div id="main">
+        <center>
+        <figure>
+            <img src = "https://cache.mrporter.com/variants/images/1647597284377541/ou/w358_q60.jpg" width="220"  height="300"/>
+            <figcaption id="denumire1">Rucsac</figcaption>
+            <figcaption id="pret">100</figcaption>
+            <button onclick="functieAdaugaInCos()">Adaugă în coș 🔝</button>
+        </figure>
+        <figure>
+            <img src = "https://cache.mrporter.com/variants/images/1647597284377547/ou/w358_q60.jpg" width="220" height="300"/>
+            <figcaption id="denumire2">Geantă tip borsetă</figcaption>
+            <figcaption id="pret">250</figcaption>
+            <button onclick="functieAdaugaInCos()">Adaugă în coș 🔝</button>
+        </figure>
+        <figure>
+            <img id="image" src = "https://cache.mrporter.com/variants/images/1647597284376458/ou/w358_q60.jpg" width="220" height="300"/>
+            <figcaption id="denumire3">Geantă multifuncțională</figcaption>
+            <figcaption id="pret">500</figcaption>
+            <button onclick="functieAdaugaInCos()">Adaugă în coș 🔝</button>
+        </figure>
+        </center>
+
+    </div>
+    <div id="sidebar">
+        <h4><center>Coș de cumpărături</center></h4>
+        <p id="cos">Coșul de cumpărături este gol!</p>
+        <p id="produs1"></p>
+        <p id="produs2"></p>
+        <p id="produs3"></p>
+        <p>Valoare comandă: </p>
+        <p id="valoareComanda">0</p>
+        <p id="comandaMin">Comanda minimă este de 100 lei</p>
+    </div>
+
+    <script src="MrPorter.js"></script>
+
+</body>
+</html>
